@@ -33,6 +33,13 @@ public class BaseClass {
 			driver.manage().window().maximize();
 			sdriver=driver;
 		}
+		else if (browser.equals("ie")) {
+			WebDriverManager.iedriver().setup();
+			driver=new InternetExplorerDriver();
+			driver.manage().window().maximize();
+			sdriver=driver;
+		}
+
 
 	}
 	@AfterClass
