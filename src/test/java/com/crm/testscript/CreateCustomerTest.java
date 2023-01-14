@@ -35,6 +35,7 @@ public class CreateCustomerTest extends BaseClass {
 		Reporter.log("TestCaseIsPass",true);
 		//excel.setData("CreateCustomer", 1, 3, "pass");
 		Thread.sleep(2000);
+		//
 
 	}
 }
